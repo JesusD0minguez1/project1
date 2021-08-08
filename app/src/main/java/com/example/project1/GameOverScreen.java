@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class RiddleScreenActivity extends AppCompatActivity {
+public class GameOverScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.riddle_screen);
+        setContentView(R.layout.game_over);
     }
 }
