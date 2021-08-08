@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project1">
         <activity
-            android:name=".MainActivity"
+            android:name=".PlayerInfo"
+            android:exported="true" />
+        <activity
+            android:name=".RiddleScreenActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TitleScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
