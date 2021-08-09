@@ -14,9 +14,6 @@
             android:name=".PlayerInfo"
             android:exported="true" />
         <activity
-            android:name=".RiddleScreenActivity"
-            android:exported="true" />
-        <activity
             android:name=".TitleScreen"
             android:exported="true">
             <intent-filter>
