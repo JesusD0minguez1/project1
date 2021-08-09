@@ -4,10 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/TeamWork/app/src/main/res/layout/activity_main.xml" value="0.11354166666666667" />
+        <entry key="..\:/Users/Mathew/AndroidStudioProjects/project11/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Mathew/AndroidStudioProjects/project11/app/src/main/res/drawable/titlescreen_background.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/Mathew/AndroidStudioProjects/project11/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Mathew/AndroidStudioProjects/project11/app/src/main/res/layout/activity_player_info.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Mathew/AndroidStudioProjects/project11/app/src/main/res/layout/game_over.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Mathew/AndroidStudioProjects/project11/app/src/main/res/layout/riddle_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mathew/AndroidStudioProjects/project11/app/src/main/res/menu/bottom_navigation.xml" value="0.20520833333333333" />
       </map>
     </option>
   </component>
