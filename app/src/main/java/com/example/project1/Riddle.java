@@ -19,7 +19,7 @@ public class Riddle extends FileManager {
     }
 
 
-    String[] getRiddlesArray() {
+    public String[] getRiddlesArray() {
         return riddles;
     }
 
