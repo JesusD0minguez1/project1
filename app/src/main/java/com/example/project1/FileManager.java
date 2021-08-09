@@ -1,7 +1,11 @@
 package com.example.project1;
 
 
-public class FileManager {
+import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class FileManager extends AppCompatActivity {
 
 
         private String userName;
@@ -39,8 +43,34 @@ public class FileManager {
             //TODO
         }
 
+        public void changeGUI(View v)
+        {
+            int click = 0;
+            switch (click)
+            {
+                case  0:
+                    setContentView(R.layout.activity_main);
+                    click +=1;
+                break;
+                case 1:
+                    setContentView(R.layout.activity_player_info);
+                    click +=1;
+                break;
+                case 2:
+                    setContentView(R.layout.riddle_screen);
+                    click +=1;
+                break;
+                case 3:
+                    setContentView(R.layout.game_over);
+                    click +=1;
+                break;
+            }
 
-        public void timer()  {
+        }
+
+
+
+    public void timer()  {
             //TODO
         }
 }
