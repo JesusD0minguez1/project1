@@ -20,6 +20,7 @@ public class Riddle extends FileManager {
 
     public void changeXMLView() {
         // TODO
+        setContentView(R.layout.riddle_screen);
     }
 
 
