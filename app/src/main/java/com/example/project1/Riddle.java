@@ -1,12 +1,16 @@
 package com.example.project1;
 
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+import android.widget.ProgressBar;
+import android.view.*;
 
-import java.lang.reflect.Array;
 
 public class Riddle extends FileManager {
 
 
     String[] riddles;
+    ProgressBar progBar = (ProgressBar) findViewById(R.id.riddleProg);
 
 
     Riddle(String userName, int userScore) {

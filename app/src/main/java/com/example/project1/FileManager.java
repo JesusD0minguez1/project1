@@ -1,7 +1,11 @@
 package com.example.project1;
 
 
-public class FileManager {
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+
+
+public class FileManager extends AppCompatActivity {
 
 
         private String userName;
@@ -12,6 +16,14 @@ public class FileManager {
         FileManager(String userName, int userScore) {
             this.userName = userName;
             this.userScore = userScore;
+        }
+
+
+        @Override
+        protected void onCreate(Bundle savedInstanceState)
+        {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_main);
         }
 
 
