@@ -20,8 +20,10 @@ public class TitleScreen extends AppCompatActivity
     }
 
     public void onClickNext(View v) {
-        Intent action1 = new Intent(getApplicationContext(), PlayerInfo.class);
-        startActivity(action1);
+//        Intent action1 = new Intent(getApplicationContext(), PlayerInfo.class);
+//        startActivity(action1);
+        FileManager f = new FileManager();
+        f.changeGUI(v);
     }
 
 }

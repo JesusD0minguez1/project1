@@ -12,7 +12,7 @@ public class FileManager extends AppCompatActivity {
         private int userScore;
         private int time;
 
-
+        FileManager(){}
         FileManager(String userName, int userScore) {
             this.userName = userName;
             this.userScore = userScore;
